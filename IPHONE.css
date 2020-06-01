@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #854442;
+}
+.contenedortotal{
+    background-color: #e3e4e6;
+    width: 305px;
+    height: 570px;
+    border-radius: 50px;
+    display: flex;
+    margin: auto;
+    
+}
+.contenedor{
+    background-color: #f9fafc;
+    width: 295px;
+    height: 560px;
+    border-radius: 50px;
+    /*box-shadow: 6px 6px 0.5px black;*/
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.partesuperior{
+    background-color: #f9fafc;
+    width: 295px;
+    height: 70px;
+    border-radius: 50px 50px 2px 2px;
+    /*box-shadow: 6px 0px 0.5px black;*/
+    align-self: center;
+    
+}
+.puntosuperior{
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+.camaraparlante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.camara{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    margin-right: 10px;
+
+    
+}
+.parlante{
+    width: 50px;
+    height: 5px;
+    background-color: #313131;
+    margin-right: 17px;
+    
+}
+.pantalla{
+    background-image: url(imagenfondo.jpeg);
+    background-size: cover;
+    width: 270px;
+    height: 420px;
+    align-self: center;
+    margin: 0px 0px;
+    border: 3px solid black;
+    
+}
+
+.parteinferior{
+    background-color: #f9fafc;
+    width: 295px;
+    height: 70px;
+    border-radius: 2px 2px 50px 50px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    width: 40px;
+    height: 40px;
+    background-color: #f9fafc;
+    border-radius: 100px;
+    align-self: center;
+    border-top: 2px inset #eee9e9;
+    border-bottom: 2px inset #e3e4e6;
+    border-left: 2px inset #eee9e9;
+    border-right: 2px inset #e3e4e6;
+    
+}
+/*
+.bordeizqsuperior{
+    width: 5px;
+    height: 9px;
+    background-color: black;
+    
+}
+ 
+.bordeizqinferior{
+    width: 5px;
+    height: 9px;
+    background-color: red;
+       
+}
+.bordedersuperior{
+    width: 5px;
+    height: 9px;
+    background-color: black;
+
+}
+.bordederinferior{
+    width: 5px;
+    height: 9px;
+    background-color: red;
+  
+}
+.cargador{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    border-radius: 50px 50px 2px 2px;
+}
